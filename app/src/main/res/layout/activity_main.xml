@@ -14,6 +14,12 @@
         android:layout_height="wrap_content"
         android:text="Número 1" />
 
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spOperacoes"
+        android:entries="@array/operacoes"></Spinner>
+
     <EditText
         android:id="@+id/etNumero2"
         android:layout_width="match_parent"
@@ -21,10 +27,10 @@
         android:text="Número 2" />
 
     <Button
-        android:id="@+id/btSomar"
+        android:id="@+id/btCalcular"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Somar"/>
+        android:text="Calcular"/>
 
     <TextView
         android:id="@+id/tvResultado"
